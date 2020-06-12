@@ -8,7 +8,7 @@ contract SimpleStorage {
   }
 
   function explode(uint y) public {
-    storedData = y + 115792089237316195423570985008687907853269984665640564039457584007913129639935;
+    storedData = y + 1157920892373161954235709;
     revert("boom");
   }
 
