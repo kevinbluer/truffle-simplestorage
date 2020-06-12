@@ -1,12 +1,12 @@
 const path = require("path");
 
 module.exports = {
-  // See <http://truffleframework.com/docs/advanced/configuration>
-  // to customize your Truffle configuration!
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   networks: {
-    develop: {
-      port: 8545
+    teams: {
+      url: `ws://marshmallow:8002/77f042b1-a657-49d2-b5eb-1d8facbcb333`,
+      network_id: "*",
+      gas: 5500000
     }
   }
 };
