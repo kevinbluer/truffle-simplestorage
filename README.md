@@ -1,3 +1,3 @@
 # truffle-simplestorage
 
-👋
+🙌
